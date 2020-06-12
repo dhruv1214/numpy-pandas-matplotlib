@@ -26,3 +26,19 @@ print(d)
 df = pd.DataFrame(np.random.randn(10,4),index=d,columns=['A','B','C','D'])
 
 print(df)
+
+df1 = pd.DataFrame({'A':[1,2,3,4],
+                    
+                    
+                    'B':'Aditya'})
+
+print(df1)
+
+
+#functions in python
+
+print(df.head())
+print(df.tail())
+
+
+print(df.to_numpy())
