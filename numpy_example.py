@@ -25,3 +25,15 @@ print(d.size*d.itemsize)
 
 '''
 
+a = np.array([1,4,2,3,5,7,8,6])
+x = a.reshape(4, 2) 
+print(x)
+print()
+y = x.reshape(2, 4)
+print(y)
+
+a = np.array([1,4,2,3,5,7,8,6])
+x = a.reshape(2, 4)
+print(x)
+y = x.flatten() 
+print(y)
